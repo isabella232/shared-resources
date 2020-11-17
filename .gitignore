@@ -1,0 +1,113 @@
+HELP.md
+
+## Gradle ##
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+## build ##
+dist
+build
+/build
+
+## config ##
+env.tmp
+config.ini
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backup
+
+## OS ##
+.DS_Store
+.git
+error.txt
+
+## Python ##
+venv/
+*.pyc
+__pycache__/
+*.egg-info
+
+# Node/NPM
+/node_modules
+/.pnp
+.pnp.js
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+/.awcache/*
+/.cache-loader/*
+.sass-cache/
+
+# testing
+/coverage
+
+# Golang
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.git
+*.test
+*.out
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# PHP
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs
+/vendor
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# Ruby
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+!/storage/.keep
